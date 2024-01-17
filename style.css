@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #6b6161;
+
+}
+main{
+    text-align: center;
+    margin: 3rem 1rem;
+    color: white;
+}
+main hr{
+    margin: 1rem 0rem;
+}
+main input{
+    height: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    height: 1.8rem;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+main button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: none;
+    color: black;
+
+}
+.emojiDiv{
+    margin: 0.5rem 0rem;
+    /* background-color: #AAD7D9; */
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+   
+}
+#tabelData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* background-color: blue; */
+}
+.emojibox{
+   
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 0.5rem; */
+    margin: 0.4rem;
+    /* background-color: rgb(4, 52, 36); */
+    /* box-shadow: 0 0 15px rgb(214, 208, 208); */
+    overflow-wrap: break-word;
+    border-radius: 36px;
+    background: linear-gradient(145deg, #605757, #726868);
+    box-shadow:  23px 23px 47px #514a4a,
+                 -23px -23px 47px #857878;
+}
+.emojiline{
+    font-size: 2rem;
+    padding-bottom: 0.7rem;
+    transition: 0.5s ease ;
+    /* word-wrap: break-word; */
+}
+.aliceline{
+    font-size: 16px;
+    /* line-height: 1.5; */
+    padding: 0.2rem 0;
+    width: 120px;
+    
+}
+.discline{
+    font-size: 15px;
+/* word-wrap: normal; */
+    padding: 0.2rem 0;
+}
+.emojibox:hover{
+    box-shadow: 0 0 20px rgb(126, 124, 124);
+    transform: scale(1.05);
+}
+.emojiline:hover{
+    scale: 2;
+}
+
+@media screen and (max-width:320px){
+    main input {
+        height: 2rem;
+        padding: 1rem;
+        /* font-size: 1.2rem; */
+        border-radius: 1rem;
+        border: none;
+        /* height: 1.8rem; */
+        width: 70%;
+        /* margin-bottom: 1rem; */
+    }
+    .emojiDiv{
+        margin: 0rem 0rem;
+        padding: 0rem;
+       
+    }
+    .emojibox {
+        width: 120px;
+        height: 80px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* flex-direction: column; */
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* border-radius: 0.5rem; */
+        /* margin: 0.4rem; */
+        /* background-color: rgb(4, 52, 36); */
+        /* box-shadow: 0 0 15px rgb(214, 208, 208); */
+        overflow-wrap: break-word;
+        border-radius: 15px;
+        background: linear-gradient(145deg, #605757, #726868);
+        box-shadow: 23px 23px 47px #514a4a, -23px -23px 47px #857878;
+    }
+
+
+
+    .emojiline{
+        font-size: 1.5rem;
+        padding-bottom: 0.2rem;
+        transition: 0.5s ease ;
+        /* word-wrap: break-word; */
+    }
+    .aliceline{
+        font-size: 12px;
+        /* line-height: 1.5; */
+        padding: 0.1rem 0;
+        width: 120px;
+        
+    }
+    .discline{
+        font-size: 10px;
+    /* word-wrap: normal; */
+        padding: 0.1rem 0;
+        display: none;
+    }
+    .emojibox:hover{
+        box-shadow: 0 0 20px rgb(126, 124, 124);
+        transform: scale(1.05);
+    }
+    .emojiline:hover{
+        scale: 2;
+    }
+}
