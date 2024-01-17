@@ -96,7 +96,7 @@ main button{
     scale: 2;
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
     main input {
         height: 2rem;
         padding: 1rem;
